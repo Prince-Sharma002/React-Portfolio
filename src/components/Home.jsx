@@ -101,7 +101,7 @@ function Home() {
         </section>
 
         <section>
-            <img src={me} alt='Prince' />
+            <img src={me} alt='Prince sharma' />
         </section>
         <a href='#footer'>
             <BsChevronDown />
