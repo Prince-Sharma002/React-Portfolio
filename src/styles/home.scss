@@ -114,14 +114,16 @@
     
     }
 
-    >svg{
-        position: absolute;
-        font-size: 4rem;
-        color: $color5;
-        left: 50%;
-        bottom: 5%;
-        transform: translateX(-50%);
-        animation: animationSvg 0.7s infinite linear alternate;
+    >a{
+        >svg{
+            position: absolute;
+            font-size: 4rem;
+            color: $color5;
+            left: 50%;
+            bottom: 5%;
+            transform: translateX(-50%);
+            animation: animationSvg 0.7s infinite linear alternate;
+        }
     }
 
 }

@@ -92,7 +92,7 @@ function Home() {
             </article>
             <article data-special>
                 <p>
-                    Contacts
+                    Contact
                 </p>
                 <span>prince12845sharma@gmail.com</span>
             </article>
@@ -103,7 +103,9 @@ function Home() {
         <section>
             <img src={me} alt='Prince' />
         </section>
-        <BsChevronDown />
+        <a href='#footer'>
+            <BsChevronDown />
+        </a>
     </div>
   )
 }
